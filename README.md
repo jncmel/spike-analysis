@@ -5,6 +5,6 @@ The recordings were done using a 60 electrode MEA from Multi-Channle systems usi
 
 ![Alt text](https://github.com/jncmel/spike-analaysis/blob/main/mea_chan1.jpg?raw=true)
 
-
+![plot](./mea_chan1.jpg)
 
 The spike sorting was done using Spyking-Circus [https://github.com/spyking-circus/spyking-circus]. 
