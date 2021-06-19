@@ -2,7 +2,6 @@
 
 Repository for the results of the spike sorting and custom scripts used for the analysis post sorting.
 The recordings were done using a 60 electrode MEA from Multi-Channle systems using a MEA-1060-Inv-BC.
-![What is this](mea_chan1.jpg)
 
 ![plot](./mea_chan1.jpg)
 
