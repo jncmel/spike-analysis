@@ -3,7 +3,7 @@
 Repository for the results of the spike sorting and custom scripts used for the analysis post sorting.
 The recordings were done using a 60 electrode MEA from Multi-Channle systems using a MEA-1060-Inv-BC.
 
-![alt text](https://github.com/jncmel/spike-analaysis/blob/main/mea_chan1.jpg?raw=true)
+![Alt text](https://github.com/jncmel/spike-analaysis/blob/main/mea_chan1.jpg?raw=true)
 
 
 
