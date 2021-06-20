@@ -18,8 +18,10 @@ Contains the .params and deadtimes files needed for checking the sorting using S
 # Results
 Contains the spiketimes of the different clusters obtained from spike sorting. 
 
-Cluster_ids: File containing the cluster_ids taken of different recodings used for further analysis.
+
 
 
 # Scripts
-Custom code used for plotting the raster across trials and firing rate of different clusters.
+Custom code used for plotting the raster across trials and firing rate of different clusters from the .hdf5 files of different recordings
+
+Cluster_ids: File containing the cluster_ids taken of different recodings used for the plots.
