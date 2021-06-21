@@ -20,7 +20,7 @@ Contains the .params and deadtimes files needed for checking the sorting using S
 
 
 # Results
-Contains the spiketimes of the different clusters obtained from spike sorting. 
+Contains the spiketimes of the different clusters in .hdf5 format, obtained from spike sorting. 
 
 
 
@@ -31,6 +31,6 @@ Custom code used for plotting the raster across trials and firing rate of differ
 - Cluster_ids: File containing the cluster_ids taken of different recodings used for the plots.
 
 # Instructions
-- Spyking-Circus can be installed easily using conda.
+- Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
 - The scripts used for plotting the raster and firing rate requires h5py, which can be installed as `pip install h5py`
 
