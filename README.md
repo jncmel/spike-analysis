@@ -1,7 +1,7 @@
 # Subretinal Polymer Repository 
 
 Repository for the results of the spike sorting and custom scripts used for the analysis post sorting.
-The recordings were done with a 60 electrode MEA with 30&mu;m  electrodes and an interelctrode distance of 200&mu;m. Using a MEA-1060-Inv-BC fom Multi Channel Systems.
+The recordings were done on different days(E14-E18) of the developing chick retina with a 60 electrode MEA with 30&mu;m  electrodes and an interelctrode distance of 200&mu;m. Using a MEA-1060-Inv-BC fom Multi Channel Systems.
 
 <!--![plot](https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png | width=100)-->
 <img src="https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png" width="700"> 
