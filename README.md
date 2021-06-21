@@ -7,7 +7,7 @@ The recordings were done with a 60 electrode MEA with 30&mu;m  electrodes and an
 <img src="https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png" width="700"> 
 
 
-https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-9a5a-55c1be4606f6.mp4 
+https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-9a5a-55c1be4606f6.mp4
 
 The spike sorting was done using Spyking-Circus [https://github.com/spyking-circus/spyking-circus]. The link to the relevant recordings to be used with the paramter files si @. 
 
