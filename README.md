@@ -18,19 +18,17 @@ The spike sorting was done using Spyking-Circus [https://github.com/spyking-circ
 
 Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command: <br/>
 `spyking-circus path/mydata.raw`<br/> <br/>
-After the sorting a result file will get a result file in `path/mydata/mydata.result.hdf5`. This file contains the spiketimes of the differerent templates.
+After the sorting is done, a result file will get generated in `path/mydata/mydata.result.hdf5`. This file contains the spiketimes of the differerent templates.
 
 
 ## Results
 Contains the result files obtained from spike sorting different recordings. The spiketimes of the templates was used for recreating the raster and firing rate plots shown in the paper.
 
 
-
-
 ## Scripts
-Custom code used for plotting the raster across trials and firing rate of different clusters from the .hdf5 files of different recordings
+Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings
 
-- Cluster_ids: File containing the cluster_ids taken of different recodings used for the plots.
+- Cluster_ids: File containing the cluster_ids from different recodings used for the plots.
 
 ## Instructions
 - Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
