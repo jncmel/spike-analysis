@@ -31,5 +31,4 @@ Contains the final templates and their spiketimes for different recordings which
 Custom python code used for plotting the raster across trials and firing rate of different templates from the result files of different recordings. The start time of the stimulus is needed for plotting the response to the stimulus for different conditions (Control, CNQX addition, etc..).
 - The scripts used for plotting the raster and firing rate requires [h5py](https://docs.h5py.org/en/stable/#), which can be installed as <br/> `pip install h5py`
 
-## Instructions
 
