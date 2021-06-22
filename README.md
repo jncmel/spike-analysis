@@ -16,8 +16,8 @@ The spike sorting was done using Spyking-Circus [https://github.com/spyking-circ
 - mea_recent.prb : Probe file containing the electrode mapping which is required for spike sorting.
 ## Spike_sorting
 
-Contains the .params and deadtimes files needed for checking the sorting using Spyking-Circus for different recordings.
-
+Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command
+'spyking-circus path/mydata.raw`. After the sorting a set of files will be generated in each folder
 
 
 ## Results
