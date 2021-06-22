@@ -9,8 +9,7 @@ The recordings were done on different days(E14-E18) of the developing chick reti
 
 https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-9a5a-55c1be4606f6.mp4 
 
-Short video showing light evoked activity from an E16 chick retina with the polymer in the subretinal side.
-for two successive full field flashes of 500ms separated by a duration of 10s.
+Short video showing light evoked activity from multiple electrodes from an E16 chick retina with the polymer in the subretinal side for two successive full field flashes of 500ms separated by a duration of 10s.
 
 <br/>
 <br/>
