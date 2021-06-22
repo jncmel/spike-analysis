@@ -7,7 +7,6 @@ import h5py
 
 
 f=h5py.File('//result file path here//','r')
-cluster_ids=[] #Ids of the clusters which will be used for further analysis 
 n=20     # Number of trials
 start_time=1367.917     #Stimulus start time
 
@@ -22,8 +21,8 @@ for j in range (0,n):
 stimulus_onset_times=np.array(stimulus_onset_times)
 
 
-for i in cluster_ids:
-    array=f['spiketimes']['temp_'+str(i)]  #Reading spiketimes of particular cluster into an array
+for i in f['spiketimes']:
+    array=f['spiketimes'][i]  #Reading spiketimes of particular cluster into an array
     array_sorted=np.ravel(array)/25000  #Divide by sampling rate to get spiketimes. 
     psth_trials=[]       #Array to store spike timings across trials
 
