@@ -16,12 +16,13 @@ The spike sorting was done using Spyking-Circus [https://github.com/spyking-circ
 - mea_recent.prb : Probe file containing the electrode mapping which is required for spike sorting.
 ## Spike_sorting
 
-Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command
-'spyking-circus path/mydata.raw`. After the sorting a set of files will be generated in each folder
+Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command: <br/>
+`spyking-circus path/mydata.raw`<br/> <br/>
+After the sorting a result file will get a result file in `path/mydata/mydata.result.hdf5`. This file contains the spiketimes of the differerent templates.
 
 
 ## Results
-Contains the spiketimes of the different clusters in .hdf5 format, obtained from spike sorting. 
+Contains the result files obtained from spike sorting different recordings. The spiketimes of the templates was used for recreating the raster and firing rate plots shown in the paper.
 
 
 
@@ -33,5 +34,5 @@ Custom code used for plotting the raster across trials and firing rate of differ
 
 ## Instructions
 - Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
-- The scripts used for plotting the raster and firing rate requires h5py, which can be installed as `pip install h5py`
+- The scripts used for plotting the raster and firing rate requires h5py, which can be installed as <br/> `pip install h5py`
 
