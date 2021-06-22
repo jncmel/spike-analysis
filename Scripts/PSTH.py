@@ -3,9 +3,8 @@ import matplotlib.pyplot as plt
 import h5py
 
 
-f=h5py.File('./P2_14_05_21/P2_14_05_21.result-final.hdf5','r')
-cluster_ids=[0,1,3,5,7,11,13,15,20,21,25,29,33,34,37,42,48,51,54,56,60,65,70,71,73]
-start_time=1367.917     #Stimulus start time
+f=h5py.File('//path to result file//','r')
+start_time=     #Stimulus start time
 
 stimulus_onset_times=[]
 for j in range (0,10):
@@ -18,8 +17,8 @@ stimulus_onset_times=np.array(stimulus_onset_times)
 psth_trials=[]       #Array to store spike timings across trials
 custom_bins=np.arange(0,5000,20)
 
-for i in cluster_ids:
-    array=f['spiketimes']['temp_'+str(i)]
+for i in f['spiketimes']:
+    array=f['spiketimes'][i]
     array_sorted=np.ravel(array)/25000  #Divide by sampling rate to get spiketimes. 
 
     for j in stimulus_onset_times:
@@ -34,8 +33,6 @@ for i in cluster_ids:
 
 
     post_stimulus_times=1000*np.concatenate(psth_trials)
-  #  print(len(post_stimulus_times))
-  #  print(len(post_stimulus_times))
 
     fig, ax1 = plt.subplots()
     

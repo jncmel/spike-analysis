@@ -8,8 +8,7 @@ import h5py
 
 
 f=h5py.File('//path to result file//','r')
-cluster_ids=[] # Cluster ids taken for further analysis
-start_time=1367.917     #Stimulus start time
+start_time=     #Stimulus start time
 start=0
 n=10                        # Number of trials + 1
 bin_size=50

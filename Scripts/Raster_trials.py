@@ -8,7 +8,7 @@ import h5py
 
 f=h5py.File('//result file path here//','r')
 n=20     # Number of trials
-start_time=1367.917     #Stimulus start time
+start_time=     #Stimulus start time
 
 stimulus_onset_times=[]  #Array to store the stimulus times
 
