@@ -30,7 +30,7 @@ After the sorting is done, a result file will get generated in `path/mydata/myda
 Contains the final templates and their spiketimes for different recordings which were used for plotting the raster across trials and firing rates.
 
 ## Scripts
-Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings. The start time of the stimulus is needed for plotting the raster and firing rate to the stimulus for different conditions (Control, CNQX addition, etc..).
+Custom python code used for plotting the raster across trials and firing rate of different templates from the result files of different recordings. The start time of the stimulus is needed for plotting the response to the stimulus for different conditions (Control, CNQX addition, etc..).
 
 ## Instructions
 - Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
