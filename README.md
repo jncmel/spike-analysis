@@ -17,17 +17,17 @@ Short video showing light evoked activity from multiple electrodes in an E16 chi
 ## Contents of the repository
 
 - mea_recent.prb : Probe file containing the electrode mapping which is required for spike sorting.
-## Spike_sorting
+### Spike_sorting
 
 Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. Additionally, the path to the .prb file for the eletrode array (here: mea_recent.prb) has to be mentioned in the .params file. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command: <br/>
 `spyking-circus path/mydata.raw`<br/> <br/>
 After the sorting is done, a result file will get generated in `path/mydata/mydata.result.hdf5`. This file contains the spiketimes of differerent templats stored in .hdf5 format. More details of the generated files can be found in the Spyking-Circus website.
 
 
-## Results
+### Results
 Contains the final templates and their spiketimes for different recordings which were used for plotting the raster across trials and firing rates.
 
-## Scripts
+### Scripts
 Custom python code used for plotting the raster across trials and firing rate of different templates from the result files of different recordings. The start time of the stimulus is needed for plotting the response to the stimulus for different conditions (Control, CNQX addition, etc..).
 - The scripts used for plotting the raster and firing rate requires [h5py](https://docs.h5py.org/en/stable/#), which can be installed as <br/> `pip install h5py`
 
