@@ -16,7 +16,7 @@ The spike sorting was done using Spyking-Circus [https://github.com/spyking-circ
 - mea_recent.prb : Probe file containing the electrode mapping which is required for spike sorting.
 ## Spike_sorting
 
-Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command: <br/>
+Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. Additionally, the path to the .prb file for the eletrode array (here: mea_recent.prb) has to be mentioned in the .params file. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command: <br/>
 `spyking-circus path/mydata.raw`<br/> <br/>
 After the sorting is done, a result file will get generated in `path/mydata/mydata.result.hdf5`. This file contains the spiketimes of the differerent templates.
 
