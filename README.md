@@ -7,8 +7,13 @@ The recordings were done on different days(E14-E18) of the developing chick reti
 <img src="https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png" width="700"> 
 
 
-https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-9a5a-55c1be4606f6.mp4
+https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-9a5a-55c1be4606f6.mp4 
 
+Short video showing light evoked activity from an E16 chick retina with the polymer in the subretinal side.
+for two successive full field flashes of 500ms separated by a duration of 10s.
+
+<br/>
+<br/>
 The spike sorting was done using Spyking-Circus [https://github.com/spyking-circus/spyking-circus]. The link to the relevant recordings to be used with the paramter files si @. 
 
 ## Contents of the repository
@@ -25,7 +30,7 @@ After the sorting is done, a result file will get generated in `path/mydata/myda
 Contains the final templates and their spiketimes for different recordings which were used for plotting the raster across trials and firing rates.
 
 ## Scripts
-Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings. The start time of the stimulus is needed for plotting the raster and firing rate for stimulus for different conditions (Control, CNQX addition, etc..).
+Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings. The start time of the stimulus is needed for plotting the raster and firing rate to the stimulus for different conditions (Control, CNQX addition, etc..).
 
 ## Instructions
 - Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
