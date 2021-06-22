@@ -22,7 +22,7 @@ After the sorting is done, a result file will get generated in `path/mydata/myda
 
 
 ## Results
-Contains the final templates and their spiketimes for different recordings which were used for the raster across trials and firing rates for differet templates.
+Contains the final templates and their spiketimes for different recordings which were used for plotting the raster across trials and firing rates.
 
 ## Scripts
 Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings. The start time of the stimulus is needed for plotting the raster and firing rate for stimulus for different conditions (Control, CNQX addition, etc..).
