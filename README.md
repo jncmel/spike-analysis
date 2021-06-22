@@ -22,8 +22,7 @@ After the sorting is done, a result file will get generated in `path/mydata/myda
 
 
 ## Results
-Contains the result files obtained from spike sorting different recordings. The spiketimes of the templates was used for recreating the raster and firing rate plots shown in the paper.
-
+Contains the final templates and their spiketimes for different recordings which were used for the raster across trials and firing rates for differet templates.
 
 ## Scripts
 Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings
