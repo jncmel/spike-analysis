@@ -27,8 +27,6 @@ Contains the final templates and their spiketimes for different recordings which
 ## Scripts
 Custom python code used for plotting the raster across trials and firing rate of different clusters from the result files of different recordings
 
-- Cluster_ids: File containing the cluster_ids from different recodings used for the plots.
-
 ## Instructions
 - Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
 - The scripts used for plotting the raster and firing rate requires [h5py](https://docs.h5py.org/en/stable/#), which can be installed as <br/> `pip install h5py`
