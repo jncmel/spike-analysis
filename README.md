@@ -32,5 +32,5 @@ Custom python code used for plotting the raster across trials and firing rate of
 
 ## Instructions
 - Spyking-Circus can be installed by conda. Detailed instructions can be found in the website.
-- The scripts used for plotting the raster and firing rate requires h5py, which can be installed as <br/> `pip install h5py`
+- The scripts used for plotting the raster and firing rate requires [h5py](https://docs.h5py.org/en/stable/#), which can be installed as <br/> `pip install h5py`
 
