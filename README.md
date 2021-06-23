@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-
 - The link to the relevant recordings can be found @
 
 ## Contents of the repository
-- Recording_details.xlsx : Excel sheet containing the details of the different recordings. 
+- Recording_Details.xlsx : Excel sheet containing the details of the different recordings. 
 - mea_recent.prb : Probe file containing the electrode mapping which is required for spike sorting.
 - Stimulus_times.pdf : Table of stimulus times for different recordings under different conditions.
 ### Spike_sorting
