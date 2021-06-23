@@ -17,6 +17,7 @@ https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-
 ## Contents of the repository
 
 - mea_recent.prb : Probe file containing the electrode mapping which is required for spike sorting.
+- Stimulus_times.pdf : Table of stimulus times for different recordings under different conditions.
 ### Spike_sorting
 
 Contains the folders corresponding to different recordings with the .params and deadtimes files needed for checking the sorting using Spyking-Circus. Additionally, the path to the .prb file for the eletrode array (here: mea_recent.prb) has to be mentioned in the .params file. The raw data has to be copied into the relevant folder and the sorting can be done after installing Spyking-Circus via the command: <br/>
