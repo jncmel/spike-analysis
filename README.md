@@ -6,7 +6,6 @@ The recordings were done on different days(E14-E18) of the developing chick reti
 <!--![plot](https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png | width=100)-->
 <img src="https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png" width="700"> 
 
-
 https://user-images.githubusercontent.com/43720482/122711261-8640b800-d27f-11eb-9a5a-55c1be4606f6.mp4 
 
 *Short video showing stimulated activity from multiple electrodes in an E16 chick retina with the polymer semiconductor in the subretinal configuration for two successive full field flashes of blue light (500ms) separated by a duration of 10s.*
