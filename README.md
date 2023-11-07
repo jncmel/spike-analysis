@@ -1,6 +1,6 @@
 # Subretinal Polymer Repository 
 
-Repository for the results of the spike sorting and custom scripts used for the analysis post sorting.
+Repository for the results of the spike sorting and custom scripts used for the analysis post sorting for Light controlled signaling initiated by subretinal semiconducting-polymer layer in developing-blind-retina mimics the response of the neonatal retina (10.1088/1741-2552/ac6f80).
 The recordings were done on different days(E14-E18) of the developing chick retina with a 60 electrode MEA with 30&mu;m  electrodes and an interelctrode distance of 200&mu;m with a MEA-1060-Inv-BC amplifier fom Multi Channel Systems.
 
 <!--![plot](https://github.com/jncmel/spike-analysis/blob/main/Filtered_data.png | width=100)-->
